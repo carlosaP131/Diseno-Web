@@ -1,5 +1,7 @@
 p.parrafo{
+    color: darkred;
     background-color: darkcyan;
+    font-size: 38px;
 }
 body{
 
