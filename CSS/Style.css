@@ -2,8 +2,11 @@ p.parrafo{
     color: darkred;
     background-color: darkcyan;
     font-size: 38px;
+    border: 10px black solid;
+    text-shadow: 2px 2px 5px blue;
 }
 body{
 
-    background-color: yellowgreen;
+   background-image: linear-gradient(rgb(241, 163, 163),rgb(66, 66, 23));
+    background-repeat: no-repeat;
 }
