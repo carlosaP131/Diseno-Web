@@ -2,11 +2,41 @@ p.parrafo{
     color: darkred;
     background-color: darkcyan;
     font-size: 38px;
-    border: 10px black solid;
-    text-shadow: 2px 2px 5px blue;
-}
-body{
+    /* border: 10px black solid; */
+    text-shadow: 2px 15px 15px rgb(139, 0, 0);
+    border-width: 10px;
+    border-color:rgb(77,77, 255);
+    border-top-style: dashed;
+    border-bottom-style:solid;
+    font-family: 'Times New Roman', Times, serif;
 
-   background-image: linear-gradient(rgb(241, 163, 163),rgb(66, 66, 23));
-    background-repeat: no-repeat;
+} 
+body {
+    animation: change-colors 20s infinite;
+  }
+
+  @keyframes change-colors {
+    0%{
+        background-image: url(/IMAGES/índice.jpeg);
+    }
+    25%{
+        background-image: url(/IMAGES/00e56f56739f6346ee7257942cac6e88.jpg);
+    }
+    50%{
+        background-image: url(/IMAGES/images.jpeg);
+    }
+    75%{
+        background-image: url(/IMAGES/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.avif);
+    }
+    100% {
+     background-image: url(/IMAGES/1920x1080_f_4ej_adtw_logo_a5a3edca668beca2a6ac85db8e86d019.jpg);
+    }
+  }
+blockquote{
+    border: 3px solid green;
+    
+}
+strong{
+    border: 5px solid rgb(0, 0,255);
+    border-radius: 50%;
 }
