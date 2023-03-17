@@ -1,20 +1,24 @@
-p.parrafo{
+.parrafo {
     color: darkred;
     background-color: darkcyan;
     font-size: 38px;
     /* border: 10px black solid; */
     text-shadow: 2px 15px 15px rgb(139, 0, 0);
     border-width: 10px;
-    border-color:rgb(77,77, 255);
+    border-color: rgb(77, 77, 255);
     border-top-style: dashed;
-    border-bottom-style:solid;
-    font-family: 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+   
+}
 
-} 
 body {
-    animation: change-colors 20s infinite;
-  }
+    background-color: bisque;
+    /* animation: change-colors 20s infinite; */
+}
 
+/* 
   @keyframes change-colors {
     0%{
         background-image: url(/IMAGES/índice.jpeg);
@@ -30,13 +34,33 @@ body {
     }
     100% {
      background-image: url(/IMAGES/1920x1080_f_4ej_adtw_logo_a5a3edca668beca2a6ac85db8e86d019.jpg);
-    }
-  }
-blockquote{
+    } 
+  }*/
+blockquote {
     border: 3px solid green;
-    
+    text-align: justify;
 }
-strong{
-    border: 5px solid rgb(0, 0,255);
+
+strong {
+    border: 5px solid rgb(0, 0, 255);
     border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 5.3em;
+    text-transform: initial;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+img:hover{
+    opacity: .5;
+    width: 200px;
+    height: 200px;
+}
+div.conteiner{
+    width: 50%;
+    margin: 0 auto;
 }
