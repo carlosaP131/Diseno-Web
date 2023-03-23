@@ -14,12 +14,13 @@
 }
 
 body {
-    background-color: bisque;
-    /* animation: change-colors 20s infinite; */
-}
+    
+    /*  animation: change-colors 20s infinite;  */
+    background:#fff url(/IMAGES/1920x1080_f_4ej_adtw_logo_a5a3edca668beca2a6ac85db8e86d019.jpg) fixed ;
+    }
 
-/* 
-  @keyframes change-colors {
+
+ /*  @keyframes change-colors {
     0%{
         background-image: url(/IMAGES/índice.jpeg);
     }
@@ -35,10 +36,15 @@ body {
     100% {
      background-image: url(/IMAGES/1920x1080_f_4ej_adtw_logo_a5a3edca668beca2a6ac85db8e86d019.jpg);
     } 
-  }*/
+  } */
 blockquote {
     border: 3px solid green;
     text-align: justify;
+    background-image: url(/IMAGES/luna.png), url(/IMAGES/ocean-3605547_1280.jpg) ;
+    background-size: 200px,cover;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 strong {
@@ -63,4 +69,9 @@ img:hover{
 div.conteiner{
     width: 50%;
     margin: 0 auto;
+    background-color: rgba(137, 43, 226, 0.247);
+}
+
+td{
+    border: 1px solid #000;
 }
