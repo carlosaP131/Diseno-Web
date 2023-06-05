@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piedra, Papel o Tijera</title>
+    <style>
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        #score {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        #options {
+            display: flex;
+            justify-content: center;
+        }
+        .option {
+            cursor: pointer;
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+        .option:hover {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+    <div id="result"></div>
+    <div id="score"></div>
+    <div id="options">
+        <div class="option" onclick="chooseOption('piedra')">Piedra</div>
+        <div class="option" onclick="chooseOption('papel')">Papel</div>
+        <div class="option" onclick="chooseOption('tijera')">Tijera</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
